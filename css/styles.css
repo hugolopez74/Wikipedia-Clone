@@ -1,0 +1,31 @@
+/* Elementos globales */
+
+/* Elementos header */
+
+.wikipedia-logo-word {
+    font-family: Linux Libertine,Georgia,Times,serif;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.wikipedia-logo-word img {
+    width: 9.5%;
+}
+.wikipedia-logo-word p {
+    width: 10%;
+    margin: 8px auto;
+    font-size: 15px;
+}
+.wikipedia-logo-round {
+    text-align: center;
+    margin: 0 auto;
+}
+.wikipedia-logo-round img {
+    margin: 60px;
+    width: 205px;
+    height: 205px;
+}
+
+/* Elementos main */
+
+/* Elementos footer */
