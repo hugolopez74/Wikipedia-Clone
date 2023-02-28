@@ -16,66 +16,82 @@
     margin: 8px auto;
     font-size: 15px;
 }
-.wikipedia-logo-round {
-    text-align: center;
-    margin: 0 auto;
-}
+
 .wikipedia-logo-round img {
-    margin-top: 60px;
-    width: 205px;
-    height: 205px;
-    /* margin-left: 50px; */
-}
-.right-countries .language a {
-    text-decoration: none;
-    margin: 0 auto;
+    margin-top: 45px;
+
+} 
+.languages {
     text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 546px;
+    height: 325px;
+    position: relative;
 }
-.language h1 {
-    font-size: 17px;
+.lang {
+    position: absolute;
+    width: 15.6rem;
+}
+.lang a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    white-space: normal;
+}
+.lang a strong {
+    font-size: 1rem;
+    font-weight: 700;
     color: #36c;
-    margin-bottom: 0;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
-    width: fit-content;
-    margin-left: 20px;
-    
 }
-.language p {
-    font-size: 13px;
+.lang a p {
     color: #54595d;
-    margin-top: 7px;
-    font-family: arial;
-    width: fit-content;
-    
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
 }
-.countries {
-    display: grid;
-    grid-template-columns: auto 250px auto;
+#spanish {
+    top: 0;
+    right: 60%;
 }
-.left-countries div {
-    margin: 0 0 0 250px;
-}
-#japanese {
-    margin-left: 35px;
-}
-#french {
-    margin-left: 70px;
-}
-#chinese {
-    margin-left: 35px;
-}
-#chinese h1 {
-    margin-left: 48px;
-}
-#polish h1 {
-    margin-left: 30px;
+#english {
+    top: 0;
+    left: 60%;
 }
 #rusian {
-    margin-right: 35px;
+    top: 20%;
+    right: 70%;
 }
-.left-countries .language p {
-    margin-block-start: 0;
-    margin-block-end: 0;
+#japanese {
+    top: 20%;
+    left: 70%;
+}
+#german {
+    top: 40%;
+    right: 72%;
+}
+#french {
+    top: 40%;
+    left: 72%;
+}
+#italian {
+    top: 60%;
+    right: 70%;
+}
+#chinese {
+    top: 60%;
+    left: 70%;
+}
+#farsi {
+    top: 80%;
+    right: 60%;
+}
+#polish {
+    top: 80%;
+    left: 60%;
 }
 /* Elementos main */
 
